@@ -118,36 +118,36 @@ def menu():
             print(llegir_llista_enters())
         if a == "2":
             start = True
-            x = input("Introdueix argument 1: ")
+            x = input("Introdueix una llista de nombres (1,2,3,4...): ")
             print(senars_llista(x))
         if a == "3":
             start = True
-            x = input("Introdueix argument 1: ")
+            x = input("Introdueix una llista de nombres (1,2,3,4...): ")
             print(sumar_parells_llista(x))
         if a == "4":
             start = True
-            x = input("Introdueix argument 1: ")
-            y = int(input("Introdueix argument 2: "))
+            x = input("Introdueix una llista de nombres (1,2,3,4...): ")
+            y = int(input("Introdueix el numero a cercar: "))
             print(cercar_numero_llista(x, y))
         if a == "5":
             start = True
             print(llegir_llista_paraules())
         if a == "6":
             start = True
-            x = input("Introdueix argument 1: ")
+            x = input("Introdueix una llista de paraules (hola,sol,casa...): ")
             print(crear_paraula_llista(x))
         if a == "7":
             start = True
             print(crear_llista_num_aleatoris())
         if a == "8":
             start = True
-            x = input("Introdueix argument 1: ")
-            y = input("Introdueix argument 2: ")
+            x = input("Introdueix una llista de nombres (1,2,3,4...): ")
+            y = input("Introdueix un altre llista de nombres (1,2,3,4...): ")
             print(comparar_llistes(x, y))
         if a == "9":
             start = True
-            x = int(input("Introdueix argument 1: "))
-            y = int(input("Introdueix argument 2: "))
+            x = int(input("Introdueix edat1: "))
+            y = int(input("Introdueix edat2: "))
             majors_edat(x, y)
         if a == "10":
             start = True
